@@ -50,7 +50,7 @@ const options =[
     }
 ]
 
-export default ()=>{
+const App = () => {
     const [selected,setSelected] = useState(options[0])
     return (
         <div style={{marginTop:'10px'}}> 
@@ -78,3 +78,4 @@ export default ()=>{
     
     );
 };
+export default App;
